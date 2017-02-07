@@ -278,11 +278,13 @@ class Template
 			                    <h3>ABBÉ PIERRE</h3>
 			                    <ul>
 			                        <li>
-			                        Fundador de la sociación de caridad Traperos de Emaús y reconocido trabajador en favor de los derechos de las personas sin hogar.
-			                        Fundó la primera comunidad de Emaús en 1949. Desde entonces, ha sido un infatigable luchador por los más desfavorecidos, fundando así, albergues en más de 50 países.<br>
-			                        Su lucha incalsable por los sin hogar ha tenido como escenario la calle, la telivisión, la radio e incluso la Asamblea Nacional francesa.<br/>
-			                        Fue nombrado en 1992 Gran Gran Oficial de la Legión de Honor francesa.<br/>
-			                        Falleció a la edad de 94 años y toda Francia lamentó su muerte y elogió su figura.</li>
+			                        El abate Pierre – Henri Groués, nació en Lyon, Francia el 5 de agosto de 1912 y partió ala del Padre el 22 de enero del 2007.
+									Fue el Fundador de los Traperos de Emaús.
+									Sacerdote Capuchino, que inicio su obra siendo “la voz de los sin sin voz “y se convirtió en uno de los profetas del siglo XX, nos dejó su legado social de amor al más débil.
+									Fundo la primera comunidad de Emaús en 1949.
+									Nace su primera regla: “jamás aceptamos que nuestra subsistencia dependa de otra cosa, que no sea nuestro trabajo”.
+									Falleció a la edad de 94 años y toda Francia lamentó su muerte y elogió su figura.
+									</li>
 			                    </ul>
 			                </div>
 			            </div>
@@ -516,7 +518,7 @@ class Template
 
 			                    <div class='section-title text-center wow fadeInDown'>
 			                        <h2>Contáctenos</h2>
-			                        <p>Lunes a Viernes 8:00 am - 6:00 pm <br/>Sábados 8:00 am - 5:00 pm</p>
+			                        <p>Lunes a Viernes 8:00am-5:00pm <br/> Sábados de 8:00am a 1:00pm</p>
 			                    </div>
 			                    
 			                    <div class='col-md-8 col-sm-9 wow fadeInLeft'>

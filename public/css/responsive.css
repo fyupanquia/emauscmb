@@ -187,8 +187,8 @@ px      68    160    252    */
 .service-features{
   padding: 40px 0 0 20px;
   width: 100%;
-  top: 60%;
-  height: 319px;
+  top: 50%;
+  /*height: 319px;*/
 }
 
 .service-features h3{
