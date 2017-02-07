@@ -350,7 +350,7 @@ class Template
 
                 <figure class='mix portfolio-item s2'>
                     <img class='img-responsive' src='img/portfolio/chocolatada_dic_2016_1.png' alt='Portfolio Item'>
-                    <a href='img/portfolio/chocolatada_dic_2016_1_big.png' title='CHOCOLATADA 2016' rel='portfolio' class='fancybox'><span class='plus'></span></a>
+                    <a href='img/portfolio/chocolatada_dic_2016_1_big.png' title='CHOCOLATADA (ADULTOS) 2016' rel='portfolio' class='fancybox'><span class='plus'></span></a>
                     <figcaption class='mask'>
                         <h3>ASOCIACION ADULTO MAYOR</h3>
                         <span>18 DICIEMBRE 2016</span>
@@ -359,7 +359,7 @@ class Template
 
                 <figure class='mix portfolio-item s2'>
                     <img class='img-responsive' src='img/portfolio/chocolatada_dic_2016_2.png' alt='Portfolio Item'>
-                    <a href='img/portfolio/chocolatada_dic_2016_2_big.png' title='CHOCOLATADA 2016' rel='portfolio' class='fancybox'><span class='plus'></span></a>
+                    <a href='img/portfolio/chocolatada_dic_2016_2_big.png' title='CHOCOLATADA (ADULTOS) 2016' rel='portfolio' class='fancybox'><span class='plus'></span></a>
                     <figcaption class='mask'>
                         <h3>ASOCIACION ADULTO MAYOR</h3>
                         <span>18 DICIEMBRE 2016</span>
@@ -368,9 +368,36 @@ class Template
 
                 <figure class='mix portfolio-item s2'>
                     <img class='img-responsive' src='img/portfolio/chocolatada_dic_2016_3.png' alt='Portfolio Item'>
-                    <a href='img/portfolio/chocolatada_dic_2016_3_big.png' title='CHOCOLATADA 2016' rel='portfolio' class='fancybox'><span class='plus'></span></a>
+                    <a href='img/portfolio/chocolatada_dic_2016_3_big.png' title='CHOCOLATADA (ADULTOS) 2016' rel='portfolio' class='fancybox'><span class='plus'></span></a>
                     <figcaption class='mask'>
                         <h3>ASOCIACION ADULTO MAYOR</h3>
+                        <span>18 DICIEMBRE 2016</span>
+                    </figcaption>
+                </figure>
+
+                <figure class='mix portfolio-item s2'>
+                    <img class='img-responsive' src='img/portfolio/chocolatada_dic_2016_4.png' alt='Portfolio Item'>
+                    <a href='img/portfolio/chocolatada_dic_2016_4_big.png' title='CHOCOLATADA (NIÑOS) 2016' rel='portfolio' class='fancybox'><span class='plus'></span></a>
+                    <figcaption class='mask'>
+                        <h3>COMEDOR VALLE DEL TRIUNFO</h3>
+                        <span>18 DICIEMBRE 2016</span>
+                    </figcaption>
+                </figure>
+
+                <figure class='mix portfolio-item s2'>
+                    <img class='img-responsive' src='img/portfolio/chocolatada_dic_2016_5.png' alt='Portfolio Item'>
+                    <a href='img/portfolio/chocolatada_dic_2016_5_big.png' title='CHOCOLATADA (NIÑOS) 2016' rel='portfolio' class='fancybox'><span class='plus'></span></a>
+                    <figcaption class='mask'>
+                        <h3>COMEDOR VALLE DEL TRIUNFO</h3>
+                        <span>18 DICIEMBRE 2016</span>
+                    </figcaption>
+                </figure>
+
+                <figure class='mix portfolio-item s2'>
+                    <img class='img-responsive' src='img/portfolio/chocolatada_dic_2016_6.png' alt='Portfolio Item'>
+                    <a href='img/portfolio/chocolatada_dic_2016_6_big.png' title='CHOCOLATADA (NIÑOS) 2016' rel='portfolio' class='fancybox'><span class='plus'></span></a>
+                    <figcaption class='mask'>
+                        <h3>COMEDOR VALLE DEL TRIUNFO</h3>
                         <span>18 DICIEMBRE 2016</span>
                     </figcaption>
                 </figure>
