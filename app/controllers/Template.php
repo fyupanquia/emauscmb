@@ -22,6 +22,7 @@ class Template
 							"Animate"=>"animate.css",
 							"Main Stylesheet"=>"main.css",
 							"Main Responsive"=>"responsive.css",
+							"app"=>"app.css",
 							"theme"=>"theme.php"
 						  ];
 
@@ -37,7 +38,8 @@ class Template
 						  "countTo"=>"jquery-countTo.js",
 						  "owl carousel"=>"owl.carousel.min.js",
 						  "WOW script"=>"wow.min.js",
-						  "theme custom scripts"=>"main.js"
+						  "theme custom scripts"=>"main.js",
+						  "app"=>"app.js"
 						 ];
 
 		$this->metas = "<!-- Mobile Specific Meta -->
@@ -66,11 +68,15 @@ class Template
 				 <html lang='en' class='no-js'> <!--<![endif]-->
 				 <head>
 				        $this->metas
-
+			
 				        <!-- Site Title -->
 				        <title>$this->title</title>
 				        
+						<!-- favicon -->
+				        <link rel='shortcut icon'  href='/img/logo.png'/>
 				        <!--
+
+
 				        Google Fonts
 				        ============================================= -->
 				        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
@@ -202,63 +208,11 @@ class Template
 			                    <div class='col-md-12'>
 			                        <div class='section-title text-center wow fadeInDown'>
 			                            <h2>Servicios</h2>    
-			                            <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
+			                            <p>Y es a través del TRABAJO, COMUNIDAD Y SERVICIO, que expresamos nuestro trabajo social frente a la pobreza extrema, y la combatimos con un pan y un libro.
+										Es decir, debe comer primero este niño pobre, para que asistiendo a su Institución Educativa, se forme y  eduque para que mañana pueda superar el estado de miseria y necesidad en que ha vivido y finalmente, poder servir a otro más infeliz.</p>
 			                        </div>
 			                    </div>
 			                </div>
-			                <div class='row'>
-
-			                    <div class='col-md-6 col-sm-12 wow fadeInLeft'>
-			                        <div class='media'>
-			                            <a href='#' class='pull-left'>
-			                                <img src='img/icons/monitor.png' class='media-object' alt='Monitor'>
-			                            </a>
-			                            <div class='media-body'>
-			                                <h3>Vorem amet intuitive</h3>
-			                                <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam.</p>
-			                            </div>
-			                        </div>
-
-			                    </div>
-
-			                    <div class='col-md-6 col-sm-12 wow fadeInRight' data-wow-delay='0.2s'>
-			                        <div class='media'>
-			                            <a href='#' class='pull-left'>
-			                                <img src='img/icons/cog.png' alt='Cog'>
-			                            </a>
-			                            <div class='media-body'>
-			                                <h3>Vorem amet intuitive</h3>
-			                                <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam.</p>
-			                            </div>
-			                        </div>
-			                        
-			                    </div>
-
-			                    <div class='col-md-6 col-sm-12 wow fadeInLeft'>
-			                        <div class='media'>
-			                            <a href='#' class='pull-left'>
-			                                <img src='img/icons/ruler.png' alt='Ruler'>
-			                            </a>
-			                            <div class='media-body'>
-			                                <h3>Vorem amet intuitive</h3>
-			                                <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam.</p>
-			                            </div>
-			                        </div>
-			                    </div>
-
-			                    <div class='col-md-6 col-sm-12 wow fadeInRight' data-wow-delay='0.2s'>
-			                        <div class='media'>
-			                            <a href='#' class='pull-left'>
-			                                <img src='img/icons/camera.png' alt='Camera'>
-			                            </a>
-			                            <div class='media-body'>
-			                                <h3>Vorem amet intuitive</h3>
-			                                <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam.</p>
-			                            </div>
-			                        </div>
-			                    </div>
-
-			                </div> <!-- end .row -->
 			            </div> <!-- end .container -->
 			        </section>
 			        <!--
@@ -278,12 +232,7 @@ class Template
 			                    <h3>ABBÉ PIERRE</h3>
 			                    <ul>
 			                        <li>
-			                        El abate Pierre – Henri Groués, nació en Lyon, Francia el 5 de agosto de 1912 y partió ala del Padre el 22 de enero del 2007.
-									Fue el Fundador de los Traperos de Emaús.
-									Sacerdote Capuchino, que inicio su obra siendo “la voz de los sin sin voz “y se convirtió en uno de los profetas del siglo XX, nos dejó su legado social de amor al más débil.
-									Fundo la primera comunidad de Emaús en 1949.
-									Nace su primera regla: “jamás aceptamos que nuestra subsistencia dependa de otra cosa, que no sea nuestro trabajo”.
-									Falleció a la edad de 94 años y toda Francia lamentó su muerte y elogió su figura.
+			                        Sacerdote Francés, Fundador de los Traperos de Emaús, quien hizo Ley “Servir a quien más sufre” y con ello demostrar nuestro amor cristiano para con el pobre y gestó la ayuda que puede ofrecer una  persona pobre con su trabajo para servir ayudando a otra persona pobre.En nuestra Comunidad, nosotros nos empeñamos en “servir al más débil quien quiera que sea”	
 									</li>
 			                    </ul>
 			                </div>
@@ -302,7 +251,6 @@ class Template
 						
 				            <div class='section-title text-center wow fadeInDown'>
 				                <h2>Galería</h2>    
-				                <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
 				            </div>
 				            
 				            <nav class='project-filter clearfix text-center wow fadeInLeft'  data-wow-delay='0.5s'>
@@ -407,7 +355,7 @@ class Template
 
                 <figure class='mix portfolio-item s3'>
                     <img class='img-responsive' src='img/portfolio/donacion_ene_2017_1.png' alt='Portfolio Item'>
-                    <a href='img/portfolio/donacion_ene_2017_1.png' title='DONACIÓN CAMA CLÍNICA' rel='portfolio' class='fancybox'><span class='plus'></span></a>
+                    <a href='img/portfolio/donacion_ene_2017_1_big.png' title='DONACIÓN CAMA CLÍNICA' rel='portfolio' class='fancybox'><span class='plus'></span></a>
                     <figcaption class='mask'>
                         <h3>DONACIÓN CAMA CLÍNICA</h3>
                         <span>ENERO 2017</span>
@@ -523,7 +471,10 @@ class Template
 			                    
 			                    <div class='col-md-8 col-sm-9 wow fadeInLeft'>
 			                        <div class='contact-form clearfix'>
-			                            <form action='index.html' method='post'>
+			                            <form name='emaus_contact' action='/services' method='post'>
+			                            <input type='hidden' name='service' value='Contact'>
+			                            <input type='hidden' name='method' value='send'>
+
 			                                <div class='input-field'>
 			                                    <input type='text' class='form-control' name='name' placeholder='Nombres' required=''>
 			                                </div>
@@ -533,7 +484,7 @@ class Template
 			                                <div class='input-field message'>
 			                                    <textarea name='message' class='form-control' placeholder='Mensaje' required=''></textarea>
 			                                </div>
-			                                <input type='submit' class='btn btn-blue pull-right' value='ENVIAR' id='msg-submit'>
+			                                <input type='button' class='btn btn-blue pull-right' value='ENVIAR' id='msg-submit'>
 			                            </form>
 			                        </div> <!-- end .contact-form -->
 			                    </div> <!-- .col-md-8 -->
@@ -565,6 +516,7 @@ class Template
 			        #footer
 			        ========================== -->
 			        <footer id='footer' class='text-center'>
+
 			            <div class='container'>
 			                <div class='row'>
 			                    <div class='col-lg-12'>
@@ -574,20 +526,14 @@ class Template
 			                        </div>
 
 			                        <div class='footer-social wow fadeInUp'>
-			                            <h3>We are social</h3>
+			                            <h3>Servicios Sociales Solidarios</h3>
 			                            <ul class='text-center list-inline'>
-			                                <li><a href='http://goo.gl/RqhEjP'><i class='fa fa-facebook fa-lg'></i></a></li>
-			                                <li><a href='http://goo.gl/hUfpSB'><i class='fa fa-twitter fa-lg'></i></a></li>
-			                                <li><a href='http://goo.gl/r4xzR4'><i class='fa fa-google-plus fa-lg'></i></a></li>
-			                                <li><a href='http://goo.gl/k9zAy5'><i class='fa fa-dribbble fa-lg'></i></a></li>
+			                                <li><a href='#'><i class='fa fa-facebook fa-lg'></i></a></li>
+			                                <li><a href='#'><i class='fa fa-twitter fa-lg'></i></a></li>
+			                                <li><a href='#'><i class='fa fa-google-plus fa-lg'></i></a></li>
+			                                <li><a href='#'><i class='fa fa-dribbble fa-lg'></i></a></li>
 			                            </ul>
 			                        </div>
-
-			                        <div class='copyright'>
-			                           
-			                            <p>Theme by <a href='http://graphberry.com'>GraphBerry.com</a> Developed by <a target='_blank' href='http://www.themefisher.com'>Themefisher</a></p>
-			                        </div>
-
 			                    </div>
 			                </div>
 			            </div>
@@ -596,7 +542,13 @@ class Template
 			        End #footer
 			        ========================== -->
 
-
+						<div id='blockoptions'>
+							<div class='contentoption' style='height: 100%;width: 100%;'>
+								<div class='' id='imgloading'>
+									<img src='/img/load.gif'>
+								</div>
+							</div>
+						</div>
 			        <!--
 			        JavaScripts
 			        ========================== -->

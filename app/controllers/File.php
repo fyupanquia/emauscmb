@@ -16,7 +16,7 @@ class File
 	    if(is_array($data) ){
 	        extract($data, EXTR_OVERWRITE);
 	    }
-	    include_once $path;
+	    include_once $_SERVER['DOCUMENT_ROOT']."/resources/".$path;
 	    $contenido = ob_get_contents();
 	    ob_get_clean();
 	    return $contenido;

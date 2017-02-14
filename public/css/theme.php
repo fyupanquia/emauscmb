@@ -65,7 +65,12 @@ figcaption.mask span {
   background-color: <?=$colour_a?>;
 }
 
-
+.section-title p {
+    color : <?=$colour_a?>;
+}
+.contact-details p{
+    color : <?=$colour_a?>;
+}
 @media only screen and (max-width: 767px) {
 	responsive.css:129
 	.navigation .navbar-nav > li > a {

@@ -1,21 +1,11 @@
 <?php 
-session_start();
 
- const CSS_FOLDER 		= "/css/";
- const JS_FOLDER  		= "/js/";
- const IMG_FOLDER 		= "/img/";
+require_once("app/global.php");
 
-
-
-
-spl_autoload_register(function($class){
-    require_once("app/controllers/".$class.".php");
-});
-
-
-$t = new Template;
+$t 			  = new Template;
+$t->title     = "Emaús Tablada";
 $t->colour_a  = "#212c69";
-$t->colour_b = "#ffeb3b";
+$t->colour_b  = "#ffeb3b";
 
 $html = $t->render();
 echo $html;
