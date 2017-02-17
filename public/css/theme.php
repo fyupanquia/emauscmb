@@ -51,9 +51,9 @@ figcaption.mask span {
     color: <?=$colour_a?>;
     border-bottom: 1px solid <?=$colour_a?>;
 }
-.carousel-caption > div {
+/*.carousel-caption > div {
     background-color: <?=$colour_a?>;
-}
+}*/
 .carousel-indicators .active {
     background-color: <?=$colour_a?>;
 }

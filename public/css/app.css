@@ -14,3 +14,45 @@
     left: 45%;
     top: 50%;
 }
+.start-panel{
+    font-size: 2em;
+    font-family: Arial;
+    font-weight: bold;
+}
+.flexcmb{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: flex;
+}
+.authorization .cnt_authorization{
+    width: 50%;
+ }
+
+ .authorization .cnt_authorization:nth-child(1) img{
+    width: 70%;
+ }
+
+ .contact-head{
+    color:#fff;
+ }
+
+ .callme{
+        font-size: 2em;
+ }
+ .navbar-header{
+    width: 50%;
+ }
+ .phone-gif{
+    max-width: 100%;
+ }
+ .cmb-contact{
+    width:50%;
+ }
+ .phone-number{
+    font-size: 1.5em;
+    padding-top: .5em;
+ }
+ .phone-img{
+    width: 15%;
+ }

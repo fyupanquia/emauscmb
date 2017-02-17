@@ -22,6 +22,7 @@ class Template
 							"Animate"=>"animate.css",
 							"Main Stylesheet"=>"main.css",
 							"Main Responsive"=>"responsive.css",
+							//"Icons"=>"font-awesome.css",
 							"app"=>"app.css",
 							"theme"=>"theme.php"
 						  ];
@@ -117,6 +118,23 @@ class Template
 			                            <img src='img/logo.png' alt='Kasper Logo' style='width: 46%;'>
 			                        </a>
 			                    </h1>
+			                    
+			                        <div class='contact-head' >
+										<div>
+											<label class='callme'>¡ Llámenos !</label><br/><br/>
+											<div class='flexcmb'>
+												<div class='phone-img' >
+													<img src='/img/icons/telefono.gif' class='phone-gif' /> 
+												</div>
+												<div class='phone-number' >
+													<div>259-4149</div>
+													<div>737-7321</div>
+												</div>
+											</div>
+
+										</div>
+			                        </div>
+			                    
 			                    <!-- /logo -->
 
 			                    </div>
@@ -155,29 +173,27 @@ class Template
 
 			                <div class='carousel-inner'>
 
-			                    <div class='item active'  style='background-image: url(\"img/slider/bg1.jpg\")' >
+			                    <div class='item active'  style='background-image: url(\"img/slider/first.jpg\")' >
 			                        <div class='carousel-caption'>
 			                            <div class='animated bounceInRight'>
-			                                <h2>HELLO WORLD! <br>WE ARE KASPER,WE MAKE ART.</h2>
-			                                <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam. Accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
+			                                <p class='start-panel'>Gracias a su colaboración podemos seguir con nuestro objetivo y lograr alcanzar así nuestras metas para ayudar a quien más lo necesita.</p>
 			                            </div>
 			                        </div>
 			                    </div>              
 
-			                    <div class='item' style='background-image: url(\"img/slider/bg2.jpg\")' >                
+			                    <div class='item' style='background-image: url(\"img/slider/second.jpg\")' >                
 			                        <div class='carousel-caption'>
 			                            <div class='animated bounceInDown'>
-			                                <h2>HELLO WORLD! <br>WE ARE KASPER,WE MAKE ART.</h2>
-			                                <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam. Accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
+			                                <p class='start-panel'>Nuestra ayuda llega a quienes más lo necesitan:  Asociación del Adulto Mayor y Comedor Valle el Triunfo.</p>
 			                            </div>
 			                        </div>
 			                    </div>
 
-			                    <div class='item' style='background-image: url(\"img/slider/bg3.jpg\")' >                 
+			                    <div class='item' style='background-image: url(\"img/slider/third.jpg\")' >                 
 			                         <div class='carousel-caption'>
 			                            <div class='animated bounceInUp'>
-			                                <h2>HELLO WORLD! <br>WE ARE KASPER,WE MAKE ART.</h2>
-			                                <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam. Accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
+			                                <p class='start-panel'>Todos somos hermanos y con la ayuda de usted y de Dios podemos lograrlo.</p>
+			                                <p>Comedor \"Valle del Triunfo\"</p>
 			                            </div>
 			                        </div>
 			                    </div>
@@ -208,8 +224,14 @@ class Template
 			                    <div class='col-md-12'>
 			                        <div class='section-title text-center wow fadeInDown'>
 			                            <h2>Servicios</h2>    
-			                            <p>Y es a través del TRABAJO, COMUNIDAD Y SERVICIO, que expresamos nuestro trabajo social frente a la pobreza extrema, y la combatimos con un pan y un libro.
-										Es decir, debe comer primero este niño pobre, para que asistiendo a su Institución Educativa, se forme y  eduque para que mañana pueda superar el estado de miseria y necesidad en que ha vivido y finalmente, poder servir a otro más infeliz.</p>
+			                            <p>Y es a través de los principios de TRABAJO, COMUNIDAD Y SERVICIO, que expresamos nuestro trabajo social frente a la pobreza extrema, y la combatimos con un pan y un libro.
+										Es decir, debe comer primero este niño pobre, para que, asistiendo a su Institución Educativa, se forme y eduque para que mañana pueda superar el estado de miseria y necesidad en que ha vivido y finalmente, poder servir a otro más infeliz. </p>
+
+										<p>
+											Para ello solicitamos en donación a las Personas y familias de buena voluntad y a las Empresas Privadas y Entidades del Estado:<br/>
+											<b>\"Cosas usadas que aún sirvan\"</b><br/>
+											<b>\"Libros, ropas, mobiliario y útiles escolares, equipo de cómputo, muebles y artefactos, motores y máquinarias en desuso y alimentos no perecibles...así como material recuperable: papeles, cartones, plásticos, metales y chatarra en general...\"</b><br/>
+										</p>
 			                        </div>
 			                    </div>
 			                </div>
@@ -232,7 +254,7 @@ class Template
 			                    <h3>ABBÉ PIERRE</h3>
 			                    <ul>
 			                        <li>
-			                        Sacerdote Francés, Fundador de los Traperos de Emaús, quien hizo Ley “Servir a quien más sufre” y con ello demostrar nuestro amor cristiano para con el pobre y gestó la ayuda que puede ofrecer una  persona pobre con su trabajo para servir ayudando a otra persona pobre.En nuestra Comunidad, nosotros nos empeñamos en “servir al más débil quien quiera que sea”	
+			                        Sacerdote Francés, Fundador de los Traperos de Emaús, quien hizo vocación la ley “Servir a quien más sufre” y con ello demostrar nuestro amor cristiano para con el pobre y gestó la ayuda que puede ofrecer una persona pobre con su trabajo para servir ayudando a otra persona pobre.En nuestra Comunidad, nosotros nos empeñamos en “servir al más débil quien quiera que sea”
 									</li>
 			                    </ul>
 			                </div>
@@ -289,15 +311,6 @@ class Template
                         <span>Noviembre 2016</span>
                     </figcaption>
                 </figure>
-                <figure class='mix portfolio-item s1'>
-                    <img class='img-responsive' src='img/portfolio/donacion_nov_2016_3.png' alt='Portfolio Item'>
-                    <a href='img/portfolio/donacion_nov_2016_3_big.png' title='DONACIÓN DE CAMAS' rel='portfolio' class='fancybox'><span class='plus'></span></a>
-                    <figcaption class='mask'>
-                        <h3>DONACIÓN DE CAMAS</h3>
-                        <span>Noviembre 2016</span>
-                    </figcaption>
-                </figure>
-
                 <figure class='mix portfolio-item s2'>
                     <img class='img-responsive' src='img/portfolio/chocolatada_dic_2016_1.png' alt='Portfolio Item'>
                     <a href='img/portfolio/chocolatada_dic_2016_1_big.png' title='CHOCOLATADA (ADULTOS) 2016' rel='portfolio' class='fancybox'><span class='plus'></span></a>
@@ -387,6 +400,29 @@ class Template
 			        <!--
 			        End #Portfolio
 			        ========================== -->
+
+			        <!--
+			        #quotes
+			        ========================== -->
+			        <section id='quotes'>
+			            <div class='container'>
+			                <div class='row wow zoomIn'>
+			                    <div class='col-lg-12'>
+			                        <div class='call-to-action text-center'>
+			                            <p>AUTORIZACIONES</p><br/>
+										<div class='flexcmb authorization' >
+											<div class='cnt_authorization'><img src='https://www.sunarp.gob.pe/PDFs/2016/CONVOCATORIAS/CONCURSOS/PUBLICOS/mod-cpm/img/logo-sunarp.png' /></div>
+											<div class='cnt_authorization' ><img src='http://www.munisechura.gob.pe/imagenes/sunat.png' /></div>
+										</div>
+			                        </div>
+			                    </div>
+			                </div>
+			            </div>
+			        </section>
+			        <!--
+			        End #quotes
+			        ========================== -->
+
 
 			        <!--
 			        #about
@@ -494,7 +530,7 @@ class Template
 			                            <p>RUC</p>
 			                            <span>N°20543772586</span>
 			                            <p>OFICINA</p>
-			                            <span>AV. SANTA ROSA N°308 <br> TABLADA DE LURIN V.M.T. LIMA</span>
+			                            <span>AV. SANTA ROSA N°306 <br> TABLADA DE LURIN V.M.T. LIMA</span>
 			                            <p>TELEFONO</p>
 			                            <span> 259-4149 ó 737-7321 </span>
 			                        </div> <!-- end .contact-details -->

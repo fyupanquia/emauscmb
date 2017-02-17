@@ -4,7 +4,8 @@
 */
 class Contact
 {
-	private $email = "emaustablada@outlook.com";
+	//private $email = "emaustablada@outlook.com";
+	private $email = "servicios_solidarios@hotmail.com";
 
 	function __construct()
 	{
