@@ -55,13 +55,22 @@ class Contact
 
 		$mail->Subject = "EMAÚS";
 		
+		$pageURL = 'http';
+		if (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == 'on') {
+		    $pageURL .= 's';
+		}
+		$pageURL .= '://';
+		$siteUrl = $pageURL . $_SERVER['HTTP_HOST'] . '/';
+		$url =  filter_var($siteUrl , FILTER_VALIDATE_URL) ? $siteUrl  : $siteUrl;
+
+
 		$mail->Body    = File::render("contact.phtml",[
 							                            "style"   => "color:#212c69;font-weight: bold;",
 							                            "styleB"  => "color:#a8a8a8;font-weight: bold;",
 							                            "fullname"=> $fullname,
 							                            "email"   => $email,
 							                            "message" => $message,
-							                            "img"     => $_SERVER["HTTP_HOST"]
+							                            "img"     => $url
 							                          ]);
 
 		$mail->AltBody = "Servicios Sociales Solidarios";
